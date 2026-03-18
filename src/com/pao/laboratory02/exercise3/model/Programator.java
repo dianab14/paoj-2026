@@ -1,0 +1,22 @@
+package com.pao.laboratory02.exercise3.model;
+
+/**
+ * TODO: Implementează Programator extends Angajat.
+ * - Atribut: private String limbajPreferat
+ * - Constructor: super(name, salariuBaza), this.limbajPreferat = limbajPreferat
+ * - salariuTotal() = getSalariuBaza() * 1.5
+ */
+public class Programator extends Angajat {
+
+    private String limbajPreferat;
+
+    public Programator(String name, double salariuBaza, String limbajPreferat) {
+        super(name, salariuBaza);
+        this.limbajPreferat = limbajPreferat;
+    }
+
+    @Override
+    public double salariuTotal() {
+        return  getSalariuBaza() * 1.5;
+    }
+}
