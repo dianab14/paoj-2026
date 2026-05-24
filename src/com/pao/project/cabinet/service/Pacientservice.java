@@ -2,7 +2,6 @@ package com.pao.project.cabinet.service;
 
 import com.pao.project.cabinet.exception.Pacientnegasitexception;
 import com.pao.project.cabinet.model.Pacient;
-
 import java.util.*;
 
 public class Pacientservice {
@@ -66,7 +65,7 @@ public class Pacientservice {
         }
         System.out.println("4. Lista Pacienti (sortati alfabetic)");
         for (Pacient p : pacientiSortati) {
-            System.out.println("  " + p);5
+            System.out.println("  " + p);
         }
     }
 

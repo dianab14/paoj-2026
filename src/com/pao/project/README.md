@@ -55,3 +55,4 @@ src/com/pao/project/cabinet/
     ├── Pacientnegasitexception.java
     └── Programareconflictexception.java
 ```
+javac -cp "lib\sqlite-jdbc-3.53.1.0.jar;lib\java-diff-utils-4.15.jar" -d out (Get-ChildItem -Recurse -Filter "*.java" -Path src\com\pao\project | Select-Object -ExpandProperty FullName)
